@@ -5,7 +5,7 @@
 }
 
 body{
-  background: linear-gradient( rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(../Storage/Portada.jpg);
+  background: linear-gradient( rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url(../Storage/Portada.jpg);
   background-size: cover;
   background-position: center center;
   background-attachment:fixed;
@@ -55,10 +55,6 @@ html{
 }
 
 .header .nav a:hover{
-  color: #A263C8;
-}
-
-.header .nav a span{
   color: #A263C8;
 }
 
@@ -380,6 +376,7 @@ html{
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
 .seccion-cuatro .habilidades{
@@ -402,11 +399,14 @@ html{
 .seccion-cuatro h2{
   text-align: center;
   margin-bottom: 40px;
-}
-
-.seccion-cuatro h2{
   font-size: 1.8rem;
   color: #A263C8;
+}
+.seccion-cuatro h3{
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 1.5rem;
+  color: #80d0f6c8;
 }
 
 /* footer */
